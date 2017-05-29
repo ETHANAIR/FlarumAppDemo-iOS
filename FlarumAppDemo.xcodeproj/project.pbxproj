@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAF910A61EDBF9B0001E98E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF910A51EDBF9B0001E98E0 /* AppDelegate.swift */; };
+		AAF910A81EDBF9B0001E98E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF910A71EDBF9B0001E98E0 /* ViewController.swift */; };
+		AAF910AB1EDBF9B0001E98E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF910A91EDBF9B0001E98E0 /* Main.storyboard */; };
+		AAF910AD1EDBF9B0001E98E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF910AC1EDBF9B0001E98E0 /* Assets.xcassets */; };
+		AAF910B01EDBF9B0001E98E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF910AE1EDBF9B0001E98E0 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAF910A21EDBF9B0001E98E0 /* FlarumAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlarumAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF910A51EDBF9B0001E98E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAF910A71EDBF9B0001E98E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAF910AA1EDBF9B0001E98E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAF910AC1EDBF9B0001E98E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAF910AF1EDBF9B0001E98E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAF910B11EDBF9B0001E98E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAF9109F1EDBF9B0001E98E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAF910991EDBF9AF001E98E0 = {
+			isa = PBXGroup;
+			children = (
+				AAF910A41EDBF9B0001E98E0 /* FlarumAppDemo */,
+				AAF910A31EDBF9B0001E98E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAF910A31EDBF9B0001E98E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAF910A21EDBF9B0001E98E0 /* FlarumAppDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAF910A41EDBF9B0001E98E0 /* FlarumAppDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AAF910A51EDBF9B0001E98E0 /* AppDelegate.swift */,
+				AAF910A71EDBF9B0001E98E0 /* ViewController.swift */,
+				AAF910A91EDBF9B0001E98E0 /* Main.storyboard */,
+				AAF910AC1EDBF9B0001E98E0 /* Assets.xcassets */,
+				AAF910AE1EDBF9B0001E98E0 /* LaunchScreen.storyboard */,
+				AAF910B11EDBF9B0001E98E0 /* Info.plist */,
+			);
+			path = FlarumAppDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAF910A11EDBF9B0001E98E0 /* FlarumAppDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAF910B41EDBF9B0001E98E0 /* Build configuration list for PBXNativeTarget "FlarumAppDemo" */;
+			buildPhases = (
+				AAF9109E1EDBF9B0001E98E0 /* Sources */,
+				AAF9109F1EDBF9B0001E98E0 /* Frameworks */,
+				AAF910A01EDBF9B0001E98E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlarumAppDemo;
+			productName = FlarumAppDemo;
+			productReference = AAF910A21EDBF9B0001E98E0 /* FlarumAppDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAF9109A1EDBF9AF001E98E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Ethan;
+				TargetAttributes = {
+					AAF910A11EDBF9B0001E98E0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AAF9109D1EDBF9AF001E98E0 /* Build configuration list for PBXProject "FlarumAppDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAF910991EDBF9AF001E98E0;
+			productRefGroup = AAF910A31EDBF9B0001E98E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAF910A11EDBF9B0001E98E0 /* FlarumAppDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAF910A01EDBF9B0001E98E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF910B01EDBF9B0001E98E0 /* LaunchScreen.storyboard in Resources */,
+				AAF910AD1EDBF9B0001E98E0 /* Assets.xcassets in Resources */,
+				AAF910AB1EDBF9B0001E98E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAF9109E1EDBF9B0001E98E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF910A81EDBF9B0001E98E0 /* ViewController.swift in Sources */,
+				AAF910A61EDBF9B0001E98E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAF910A91EDBF9B0001E98E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAF910AA1EDBF9B0001E98E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAF910AE1EDBF9B0001E98E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAF910AF1EDBF9B0001E98E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAF910B21EDBF9B0001E98E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAF910B31EDBF9B0001E98E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAF910B51EDBF9B0001E98E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlarumAppDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethan.FlarumAppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AAF910B61EDBF9B0001E98E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlarumAppDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethan.FlarumAppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAF9109D1EDBF9AF001E98E0 /* Build configuration list for PBXProject "FlarumAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF910B21EDBF9B0001E98E0 /* Debug */,
+				AAF910B31EDBF9B0001E98E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAF910B41EDBF9B0001E98E0 /* Build configuration list for PBXNativeTarget "FlarumAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF910B51EDBF9B0001E98E0 /* Debug */,
+				AAF910B61EDBF9B0001E98E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAF9109A1EDBF9AF001E98E0 /* Project object */;
+}
