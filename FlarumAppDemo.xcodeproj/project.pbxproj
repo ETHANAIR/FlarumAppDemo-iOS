@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					AAF910A11EDBF9B0001E98E0 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ZKS3F3WGEW;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -262,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZKS3F3WGEW;
 				INFOPLIST_FILE = FlarumAppDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ethan.FlarumAppDemo;
@@ -274,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZKS3F3WGEW;
 				INFOPLIST_FILE = FlarumAppDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ethan.FlarumAppDemo;
