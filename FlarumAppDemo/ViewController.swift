@@ -11,17 +11,20 @@ import UIKit
 class ViewController: UIViewController,UIWebViewDelegate  {
     
     @IBOutlet weak var webView: UIWebView!
+    
+    //edit the website to any what you want!
     let u2 = URL(string: "https://discuss.flarum.org");
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         showActivityIndicator()
         webView.delegate = self
-        // Do any additional setup after loading the view, typically from a nib.
-        
         let u = URLRequest(url: u2!);
         webView.loadRequest(u);
-//        webView.scrollView.bounces = false;
+        
+        //if you do not want the page bounces, set the 'ture' to 'false'
+        webView.scrollView.bounces = true;
     }
     func webViewDidFinishLoad(_ webView : UIWebView) {
         hideActivityIndicator()
@@ -29,10 +32,8 @@ class ViewController: UIViewController,UIWebViewDelegate  {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     override func viewDidLayoutSubviews() {
-//        webView.frame = CGRect(x:0, y:0, width: self.view.frame.size.width, height: self.view.frame.size.height-64);
     }
     
     func showActivityIndicator() {
@@ -43,11 +44,8 @@ class ViewController: UIViewController,UIWebViewDelegate  {
         activityIndicator.hidesWhenStopped = true
         activityIndicator.activityIndicatorViewStyle = .whiteLarge
         activityIndicator.startAnimating()
-        //UIApplication.shared.beginIgnoringInteractionEvents()
-        
         activityIndicator.tag = 100 // 100 for example
         
-        // before adding it, you need to check if it is already has been added:
         for subview in view.subviews {
             if subview.tag == 100 {
                 print("already added")
@@ -61,14 +59,8 @@ class ViewController: UIViewController,UIWebViewDelegate  {
     func hideActivityIndicator() {
         let activityIndicator = view.viewWithTag(100) as? UIActivityIndicatorView
         activityIndicator?.stopAnimating()
-        
-        // I think you forgot to remove it?
         activityIndicator?.removeFromSuperview()
-        
-        //UIApplication.shared.endIgnoringInteractionEvents()
     }
-    
-    
 }
 
 
